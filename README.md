@@ -1,3 +1,3 @@
 # mipt_seminar
 
-test change from cli
+Pictures programmed with pygame library for Python
