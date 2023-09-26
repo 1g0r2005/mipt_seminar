@@ -37,12 +37,14 @@ ellipse(screen,(0,0,0),(445*d,779*d,311*d,105*d),width=1)
 
 ellipse(screen,(22,80,68),(477*d,814*d,240*d,66*d))
 ellipse(screen,(0,0,0),(477*d,814*d,240*d,66*d),width=1)
-
 #
-circle(screen,(245,245,245),(481*d,193*d),57//4)
 circle(screen,(161,249,228),(481*d,193*d),285/2,width=45//2)
+polygon(screen,(161,249,228),([195*d,173*d],[763*d,185*d],[761*d,217*d],[195*d,207*d]))
+polygon(screen,(161,249,228),([441*d,461*d],[468*d,461*d],[503*d,0],[463*d,0]))
+circle(screen,(245,245,245),(481*d,193*d),57//4)
 pygame.display.update()
-
+#
+arc(screen,(0,0,0),())
 
 clock = pygame.time.Clock()
 finished = False
